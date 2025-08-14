@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="converter-container">
+        <h1>Temperature Converter</h1>
+        <div class="input-group">
+            <label for="temperature-input">Enter Temperature:</label>
+            <input type="text" id="temperature-input" placeholder="e.g., 25">
+            <p id="error-message" class="error-message"></p>
+        </div>
+
+        <div class="conversion-options">
+            <div class="from-unit">
+                <label for="from-unit-select">From:</label>
+                <select id="from-unit-select">
+                    <option value="celsius">Celsius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+            </div>
+            
+            <div class="to-unit">
+                <label for="to-unit-select">To:</label>
+                <select id="to-unit-select">
+                    <option value="celsius">Celsius</option>
+                    <option value="fahrenheit" selected>Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+            </div>
+        </div>
+
+        <button id="convert-button">Convert</button>
+
+        <div id="result-display" class="result-display">
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
