@@ -3,6 +3,7 @@ Gamer's Edge PC Store
 This is a modern and sleek landing page for a PC gaming store. The website is designed to be fully responsive and visually appealing, featuring a dark theme with a vibrant blue accent to capture the high-tech gaming aesthetic. This project demonstrates skills in creating a multi-section, responsive web page using core web technologies.
 
 🚀 Features
+
       Modern Design: A dark color palette with a vibrant blue accent, designed to appeal to gamers.
       
       Hero Section: A bold and impactful main banner to draw user attention.
@@ -16,6 +17,7 @@ This is a modern and sleek landing page for a PC gaming store. The website is de
       Responsive Layout: The website adapts to various screen sizes, from desktop to mobile.
 
 🛠️ Technologies Used
+
       HTML5: Provides the semantic structure and content of the website.
       
       CSS3: Used for all styling, including the responsive layout, animations, and dark theme.
