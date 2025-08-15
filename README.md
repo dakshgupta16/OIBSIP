@@ -21,3 +21,7 @@ This is a modern and sleek landing page for a PC gaming store. The website is de
       CSS3: Used for all styling, including the responsive layout, animations, and dark theme.
       
       Font Awesome: Integrated for the use of various icons (e.g., shopping cart, social media icons, feature icons).
+
+🔗 Live Demo
+You can view a live version of the website here:
+https://dakshgupta16.github.io/Landing-Page/
