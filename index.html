@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daksh Gupta | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero fade-in">
+        <div class="container hero-content">
+            <img src="MyPhoto.jpg" alt="Daksh Photo" class="profile-pic">
+            <h1>Hi, I'm <span class="highlight">Daksh Gupta</span></h1>
+            <p class="tagline">B.Tech in Electrical Engineering | Aspiring Software Developer</p>
+            <a href="https://drive.google.com/file/d/1cMH9KvTxp6_-4ZCasCH_oBirM7xs1xDU/view?usp=drive_link" target="_blank" class="btn">Download Resume</a>
+        </div>
+    </header>
+
+    <section class="about container fade-in">
+        <h2>About Me</h2>
+        <p>
+            I am a third-year B.Tech student in Electrical Engineering at IET Lucknow.
+            Passionate about Competitive Programming, Data Structures, Algorithms, and Web Development.
+            Recently qualified for TCS CodeVita Season 12. Looking forward to leveraging my technical skills
+            to create impactful solutions.
+        </p>
+    </section>
+
+    <section class="skills fade-in">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill-cards">
+                <div class="skill-card fade-in">C++ (DSA & CP)</div>
+                <div class="skill-card fade-in">HTML, CSS, JavaScript</div>
+                <div class="skill-card fade-in">SQL & DBMS</div>
+                <div class="skill-card fade-in">Machine Learning Basics</div>
+                <div class="skill-card fade-in">Frontend Development</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects container fade-in">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card fade-in">
+                <h3>Landing Page</h3>
+                <p>Responsive landing page using HTML & CSS for Oasis Infobyte internship.</p>
+                <a href="https://github.com/dakshgupta16/Landing-Page" target="_blank">View Project</a>
+            </div>
+            <div class="project-card fade-in">
+                <h3>Temperature Converter</h3>
+                <p>Web app to convert Celsius, Fahrenheit, and Kelvin using JavaScript.</p>
+                <a href="https://github.com/dakshgupta16/Temperature_Converter" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact fade-in">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:dkgupta1604@gmail.com">dkgupta1604@gmail.com</a></p>
+            <p>Phone: +91 988985XXXX</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/daksh-gupta-4b2148264/" target="_blank">LinkedIn Profile</a></p>
+            <p>GitHub: <a href="https://github.com/dakshgupta16" target="_blank">GitHub Profile</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Daksh Gupta. All rights reserved.</p>
+    </footer>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const elements = document.querySelectorAll(".fade-in");
+
+        function checkVisibility() {
+            elements.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight - 100) {
+                    el.classList.add("show");
+                }
+            });
+        }
+
+        window.addEventListener("scroll", checkVisibility);
+        checkVisibility();
+    });
+    </script>
+
+</body>
+</html>
